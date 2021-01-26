@@ -1,0 +1,80 @@
+header {
+    background: #f5f6f6;
+}
+
+.navbar {
+    padding: 0.5rem 0 !important;
+}
+
+.navbar-text {
+    margin-left: 60px;
+}
+
+.navbar-text a {
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    margin-left: 20px;
+}
+
+.btn {
+    color: #232e3f !important;
+    font-weight: 700 !important;
+    padding: 12px 20px !important;
+}
+
+.btn-yellow {
+    background-color: #ffdd2d !important;
+    border: none !important;
+    padding: 12px 20px !important;
+    border-radius: 4px !important;
+}
+
+.btn-grey {
+    background-color: #f5f6f6 !important;
+    border: 2px solid #d1deea !important;
+}
+
+.header__menu {
+    background-color: #ffffff !important;
+    border-radius: 12px;
+    min-height: 80px;
+}
+
+.header__menu .nav-link {
+    margin-left: 40px;
+}
+
+.btn-minimap {
+    margin-right: 40px;
+    border: none !important;
+    border-radius: 4px;
+    color: #fff !important;
+    background-color: rgba(35, 46, 63, 0.9) !important;
+    background-image: url(../../assets/images/minimap.png);
+}
+
+@media (max-width: 1000px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-text {
+        margin: 0 auto;
+    }
+    .form-inline {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 404px) {
+    .btn-yellow {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .btn-grey {
+        width: 100%;
+    }
+}
